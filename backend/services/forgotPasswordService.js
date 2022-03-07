@@ -62,7 +62,7 @@ const service = {
         let transporter = nodemailer.createTransport(
           smtpTransport({
             host: "smtp.gmail.com",
-            port: 587,
+            port: 465,
             ignoreTLS: false,
             secure: false, // true for 465, false for other ports
             auth: {
