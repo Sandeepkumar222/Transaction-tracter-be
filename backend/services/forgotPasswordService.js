@@ -81,7 +81,7 @@ const service = {
           to: data.email, // list of receivers
           subject: "Hello ✔ Transactions tracker verification link", // Subject line
           text: "Please click on the button to change the password", // plain text body
-          html: `<b><a href="https://transaction-tracker01.herokuapp.com/changePassword/${token}">Change password</a></b>`, // html body
+          html: `<b><a href="transaction-tracker01.herokuapp.com/changePassword/${token}">Change password</a></b>`, // html body
         });
 
         console.log("Message sent: %s", info.messageId);
